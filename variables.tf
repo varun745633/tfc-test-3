@@ -14,3 +14,10 @@ variable "vnet_address_space" {
   default = {}
 }
 
+variable "subnet_name" {
+  default = {}
+}
+
+variable "subnet_address_prefix" {
+  default = {}
+}
